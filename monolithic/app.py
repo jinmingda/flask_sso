@@ -172,7 +172,6 @@ def logout():
 
 @app.route("/")
 def home():
-    print(session)
     return """
     <a href='/login'>Login</a>
     <br>
